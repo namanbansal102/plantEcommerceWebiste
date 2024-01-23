@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.container h1{
+    margin: auto;
+    width: 600px;
+    margin-top: 100px;
+    padding: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(103, 239, 96);
+
+}
+.product-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-gap: 20px;
+    row-gap: 40px;
+    column-gap: 15px;
+}.product{
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 15px;
+   border: 1px solid rgb(180, 245, 205);
+   cursor: pointer;
+}.product-image{
+   height: 290px;
+   width: 280px;
+   border-radius: 25px;
+   filter: drop-shadow(4px 3px 10px rgb(186, 248, 219)
+   );
+}.product:hover{
+    transform: scale(1.1);
+}
+.Buy{
+    border-radius: 20px;
+    color: rgb(169, 242, 174);
+    background-color: white;
+    font-weight: bold;
+    padding: 3px;
+    position: relative;
+    bottom: 4px;
+    border: none;
+    font-family: 'Architects Daughter', cursive;
+}.Buy:hover{
+    color: rgb(248, 83, 83);
+}
+.cart:hover{
+    color: rgb(248, 83, 83);
+    
+}
+.cart{
+    border-radius: 20px;
+    color: rgb(148, 239, 143);
+    background-color: white;
+    font-weight: bold;
+    padding: 3px;
+    position: relative;
+    left: 90px;
+    border: none;
+    
+    bottom: 4px;
+}.rate::before{
+    content:"--------------";
+}
+.rate::after{
+    content: "-------------";
+}
+.rate{
+    width: fit-content;
+    margin: auto;
+    color: rgb(206, 23, 42);
+    font-family: 'Rubik Mono One', sans-serif;
+}.product h2{
+    width: fit-content;
+    padding: 5px;font-family: 'Rubik Mono One', sans-serif;
+    color: rgb(248, 175, 180);
+}
+.navbar{
+    display: flex;
+    /* background-color: aquamarine; */
+    
+    height: 70px;
+    display: fixed;
+    
+}
+.navbar-left{
+    display: flex;
+    
+
+}.navbar-left h1{
+    padding-top: 20px;
+    font-family: 'Sigmar', cursive;
+font-family: 'Yeseva One', cursive;
+color: rgb(7, 121, 59)
+;
+font-weight: bold;
+padding-right: 15px;
+text-shadow: 2px 3px 100px rgb(129, 129, 239);
+
+}.navbar-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: auto;
+    
+}.navbar-links{
+    padding-left: 50px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}.navbar-links:hover{
+   
+    border-radius: 25px;
+    color: rgb(22, 229, 132);
+}
+.navbar-right{
+    display: flex;
+    justify-content: center;
+    margin-right:10px;
+   
+}.navbar-icons{
+    padding: 20px;
+    scale: 20px;
+    color: rgb(40, 41, 42);
